@@ -15,6 +15,7 @@ const app = express();
 app.use(cors());
 
 
+
 app.use(express.urlencoded({ extended: false }));
 
 // static assets
@@ -27,4 +28,5 @@ app.use("/", mainRoutes);
 const fulldomain = `${DOMAIN}:${PORT}`;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${fulldomain}`)
+
 });

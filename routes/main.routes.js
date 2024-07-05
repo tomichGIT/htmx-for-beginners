@@ -1,5 +1,4 @@
 import { Router } from "express";
-
 import { getAllBooks, addBook, getBook, deleteBook, editBook, getEditBookForm, searchBook } from "../controllers/books.controllers.js";
 
 // Vistas
